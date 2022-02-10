@@ -544,12 +544,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 577716354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57e7c8d7df7604157ad38917fc10d172, type: 3}
+  m_Script: {fileID: 11500000, guid: f0c39a27986bb0c44823aeef14007145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  window: {fileID: 0}
-  startWelcomeScreen: 0
-  introImages:
+  images:
   - {fileID: 666735667}
   - {fileID: 1977214672}
   - {fileID: 1123766001}
@@ -562,21 +560,10 @@ MonoBehaviour:
   - {fileID: 708963907}
   - {fileID: 1688121244}
   - {fileID: 741069099}
-  wide: 0
-  mousePositionStartX: 0
-  mousePositionEndX: 0
-  dragAmount: 0
-  screenPosition: 0
-  lastScreenPosition: 0
-  lerpTimer: 0
-  lerpPage: 0
-  pageCount: 1
-  side: 
+  view_window: {fileID: 2056206468}
+  image_gap: 30
   swipeThrustHold: 30
-  spaceBetweenProfileImages: 30
-  canSwipe: 0
-  cartoonWindow: {fileID: 2056206467}
-  userPic: {fileID: 0}
+  currentIndexLable: {fileID: 0}
 --- !u!114 &577716357
 MonoBehaviour:
   m_ObjectHideFlags: 0

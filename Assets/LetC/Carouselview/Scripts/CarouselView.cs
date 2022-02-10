@@ -55,7 +55,8 @@ public class CarouselView : MonoBehaviour {
     #region private methods
     void UpdateCurrentIndexLable()
     {
-        currentIndexLable.text = m_currentIndex.ToString();
+        if(currentIndexLable)
+            currentIndexLable.text = m_currentIndex.ToString();
     }
 
     void UpdateCarouselView()
